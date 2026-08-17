@@ -22,6 +22,8 @@ manifest:
     # revision: v0.3 # Pin ZMK version
 
   remotes:
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
     - name: urob
       url-base: https://github.com/urob
     - name: zmkfirmware
@@ -52,6 +54,10 @@ manifest:
     - name: zmk-unicode
       path: modules/zmk/unicode
       revision: 1a6dbc797a46c4a61c3c71a7a9d013a5d5aee49e # main (4/19/2026)
+
+    - name: blank-slate-zmk-module
+      remote: petejohanson
+      revision: core-zephyr-hwmv2-update
 
     # Only source necessary Zephyr modules. Remove this entire section to restore
     # the default (needed for less common hardware).

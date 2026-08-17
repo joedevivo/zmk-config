@@ -18,3 +18,8 @@ include:
   - board: corneish_zen_right@2.0.0//zmk
   - board: glove80_lh
   - board: glove80_rh
+  - board: blank_slate
+#  - board: blank_slate
+#    snippet: studio-rpc-usb-uart
+#    cmake-args: -DCONFIG_ZMK_STUDIO=y
+#    artifact-name: blank_slate-studio
