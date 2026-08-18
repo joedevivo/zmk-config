@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//private/tmp/nvg-compare/m165437-nvg/boards/shields/nice_view_gem/**)",
+      "Read(//private/tmp/nvg-compare/beekeeb-toucan2/boards/shields/nice_view_gem/**)"
+    ]
+  }
+}
